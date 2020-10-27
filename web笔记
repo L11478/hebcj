@@ -1,2 +1,9 @@
 火狐（fairfox）浏览器引擎：Gecko
 Google浏览器是一个开源的，引擎：Webkit & Mozilla
+图像标记:<img src="图像URL（位置）" alt="这是一张美丽的风景图片" width（宽度）="数值" height（高度）="数值" border="数值" tittle="提示文字"/>
+相对路径：不带盘符（例如：<img sre="pic/pic/timg.jpg"/>或<img sre="..（表示选取的文件与网址在同一个文件夹下）（只能取下一个文件夹）/timg.jpg"/>），通风层级关系描述目标位置；绝对路径：带有盘符或网址
+<p>段落标记</p>；
+加粗标记：<b></b>或<strong></strong>
+斜体标记：<i></>或<em></em>
+下划线标记：<u></u>或<ins></ins>
+删除线标记：<s></s>或<del></del>
