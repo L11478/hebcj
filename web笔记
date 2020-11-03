@@ -53,3 +53,5 @@ id选择器：
       <div>ijkl</div>
     </body>
 color:颜色 letter-spacing: 属性增加或减少字符间的空白字符间距 word-spacing:字间距 line-height:行高 text-indent:缩进（单位：em）  text-transform:a大小写 white-space:空白符的处理
+font属性用于对字体样式进行综合设置，格式为：选择器{font: font-style font-variant font-weight font-size/line-height font-family;}（ps.顺序不可调换）
+
