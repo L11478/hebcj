@@ -41,3 +41,15 @@ id选择器：
       <p id="id1">ID选择器</p>
       <p id="id2">ID选择器</p>
     </body>
+通配符选择器：
+    <head>
+      <style>
+        *{ color:red}
+      </style>
+    </head>
+    <body>
+      <h1>abcd</h1>
+      <p>efg</p>
+      <div>ijkl</div>
+    </body>
+color:颜色 letter-spacing: 属性增加或减少字符间的空白字符间距 word-spacing:字间距 line-height:行高 text-indent:缩进（单位：em）  text-transform:a大小写 white-space:空白符的处理
