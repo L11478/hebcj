@@ -7,3 +7,36 @@ Google浏览器是一个开源的，引擎：Webkit & Mozilla
 斜体标记：<i></>或<em></em>
 下划线标记：<u></u>或<ins></ins>
 删除线标记：<s></s>或<del></del>
+
+
+CSS样式：<head><style ...>内嵌式</style></head>
+  <p style:"color:blue; font-size:24px; font-weight:bold; text-align:center">行内式CSS</p>
+  内嵌式：<head><h1 style:"color: font-size:18px"></head>  
+       <h1>内嵌式</h1>
+  连入：<link herf（链接）=""; type="text/css"; rel(与当前文件的关系)="stykesheet（样式表）"/>
+类选择器：
+ <head>
+  <style>
+    .one{ color:pink;font-size:36p; font-style:italic}
+    .two{ text-align:center; text-decoration:overline}
+  </style>
+ </head>
+ 
+  <body>
+    <p class="one">类选择器</p>
+    <p class="one two">类选择器</p>
+  </body>
+ Ps.如果“one”、“two”中有重复的同一元素控制，则按最后的那个同一元素控制。
+id选择器：
+  ps.ID选择器只能装修有一个，且只有一个能被其装修。
+    <head>
+      <style>
+        #id1{ color:orange; text-align:center; font-size:36px}
+        #id2{ font-famlit:"隶书"}
+      </style>
+    </head>
+    
+    <body>
+      <p id="id1">ID选择器</p>
+      <p id="id2">ID选择器</p>
+    </body>
