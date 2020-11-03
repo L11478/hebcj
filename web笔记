@@ -1,3 +1,4 @@
+！！！！！！编码的输入法一定得是英文、半角！！！！！！
 火狐（fairfox）浏览器引擎：Gecko
 Google浏览器是一个开源的，引擎：Webkit & Mozilla
 图像标记:<img src="图像URL（位置）" alt="这是一张美丽的风景图片" width（宽度）="数值" height（高度）="数值" border="数值" tittle="提示文字"/>
@@ -32,7 +33,7 @@ id选择器：
     <head>
       <style>
         #id1{ color:orange; text-align:center; font-size:36px}
-        #id2{ font-famlit:"隶书"}
+        #id2{ font-family:"隶书"}
       </style>
     </head>
     
