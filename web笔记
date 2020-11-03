@@ -14,7 +14,7 @@ CSS样式：<head><style ...>内嵌式</style></head>
   <p style:"color:blue; font-size:24px; font-weight:bold; text-align:center">行内式CSS</p>
   内嵌式：<head><h1 style:"color: font-size:18px"></head>  
        <h1>内嵌式</h1>
-  连入：<link herf（链接）=""; type="text/css"; rel(与当前文件的关系)="stykesheet（样式表）"/>
+  链入：<link herf（链接）=""; type="text/css"; rel(与当前文件的关系)="stykesheet（样式表）"/>
 类选择器：
  <head>
   <style>
