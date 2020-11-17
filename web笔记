@@ -88,4 +88,83 @@ font属性用于对字体样式进行综合设置，格式为：选择器{font: 
   <h3>三级标题，显示开题、红色、下划线效果。<h3>
   <p class="special">段落文本1，显示开题、红色、下划线。</p>
   <p id="one">段落文本</p>
-  <
+  
+  ============================
+  父子标记中的盒子定位：
+  <head>
+  	<style>
+	div{
+		border:solid blue 4px;
+	}
+	.father{
+		width:600px;
+		height:600px;
+		position:absolute
+		top:0px;
+		left:0px;	
+	}
+	.son{
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:100px;
+		left:100px
+    </style>
+    </head>
+    
+    <body>
+<div class="father">
+<div class="son"></div>
+</div>
+    </body>
+    Ps.先固定father,再固定son。
+=======================================
+盒子居中：margin:0px auto
+=======================================
+<body>
+<h1>s石家庄的区</h1>(无序列表）
+	<ul>
+      <li>新华区</li>
+      <li>新华区</li>
+      <li>新华区</li>
+  </ul>
+<h2>一周中的星期</h2>（有序列表）
+    <ol>
+      <li>周一</li>
+      <li>周二</li>
+      <li>周三</li>
+      <li>周四</li>
+      <li>周五</li>
+      <li>周六</li>
+    </ol>
+<h3>定义列表</h3>(定义列表）     
+     <dl>
+    <dt>第一章</dt>
+    	<dd>第一节</dd>
+    	<dd>第二节</dd>
+    <dt>第二章</dt>
+    	<dd>第一节</dd>
+    	<dd>第二节</dd>
+</body>
+      
+========================================================      
+      
+<body>   
+   	<h1>服装</h1>
+	<ul>
+    	<li>男装
+            <ol>
+           		<li>衬衫</li>
+                <li>西服</li>
+            </ol>
+        </li>
+        <li>女装
+            <ol>
+                <li>连衣裙</li>
+                <li>连衣裙</li>
+            </ol>
+        </li>
+    </ul>
+
+    </dl>
+</body>
