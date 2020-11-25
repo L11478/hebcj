@@ -220,3 +220,11 @@ Ex.
     <td>96</td>
     </tr>
 </table>
+====================================================
+div居中显示：给div设置一个宽度，用margin 0 auto
+Ex.
+.one{
+		width: 1000px;
+		height: 400px;
+        margin:0 auto;
+        }
