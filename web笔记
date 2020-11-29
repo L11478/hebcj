@@ -234,3 +234,5 @@ Ex.
 /*全局控制*/
 body{background:#fff9ed;  font-family:"微软雅黑"; font-size:14px; }
 a:link,a:visited{ text-decoration:none; color:#fff; font-size:16px;}
+=========================================================
+div中的文字居中：设置盒子的height与line-height的值一样。即可。
