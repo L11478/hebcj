@@ -530,5 +530,29 @@ putchar函数格式功能；
     函数格式：putchar(ch);
              注：ch可以是一个字符型常量、变量或者是一个不大于255的整型常量或者是变量。也可以是一个转义字符。
     函数功能：向标准输出设备输出一个字符。
-    例：利用putchar函数，实现输出字符型变量。
+    例1：利用putchar函数，实现输出字符型变量。
+    答：#include <stdio.h>
+        main()
+        {
+            char ch='Y';
+            putchar(ch);
+        }
+    例2：利用putchar函数，实现输出字符型或者整型常量。
+    答：#include <stdio.h>
+        main()
+        {
+            putchar('I');
+            putchar(70);
+        }
+    例3：利用putchar函数，实现输出转义字符。
+    答：#include <stdio.h>
+        main()
+        {
+            putchar('I');
+            putchar(70);
+            putchar('\n');
+            putchar('\007');
+        }
+
+
 
