@@ -1002,4 +1002,42 @@ for语句与for语句的嵌套结构：
         }
     }
   执行过程：外层循环执行依次，内层循环执行一轮。
+应用举例：
+            #include<stdio.h>
+            main()
+            {
+                int day,hour,minutes;
+                for(day=0;day<=3;day++)
+                {
+                    for(hour=0;hour<=24;hour++)
+                    {
+                       for(minutes=0;minutes<=60;minutes++)
+                       {
+                           printf("这是第%d天的%d小时里的第%d分钟\n",day,hour,minutes);
+                       }
+                    }
+                }
+            }
+    ==================================================
+    /*
+        编写程序实现，输出以下图形：
+            *
+            **
+            ***
+            ****
+          知识提高：
+                内层循环控制可以直接引用外层循环的相关变量。
+    */
+    #include<stdio.h>
+    main()
+    {
+        int i,j,m;
+        for(i=1;i<=4;i++)
+        {
+            for(j=1;j<=i;j++)
+                printf("*",j);
+
+                printf("\n",i);
+        }
+    }
 
