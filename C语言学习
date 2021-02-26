@@ -1409,8 +1409,17 @@ main()
       注意说明：1.其中void和函数名称喂函数头部。函数名后有一个空括号，其中无参数，但括号不可少。
                 2.{}中的内容称为函数体。
                 3.void代表函数无类型，即无返回值，不需要return。
-                
-    
+       举例说明:
+              语句编写：/*自定义函数，变成实现输出字符串“hellow world!”。*/
+                void Hello()
+                {
+                    printf（"ello world!\n");
+                }
+                main()
+                {
+                  Hello();
+                }
+              运行结果：Hello world!
     
       
       
